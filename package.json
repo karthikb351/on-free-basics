@@ -1,0 +1,17 @@
+{
+  "name": "on-free-basics",
+  "version": "0.0.1",
+  "description": "List of websites available on Facebook's Free Basics",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karthik Balakrishnan (~karthikb351)",
+  "license": "ISC",
+  "devDependencies": {
+    "async": "^1.5.2",
+    "cheerio": "^0.19.0",
+    "jsonfile": "^2.2.3",
+    "request": "^2.67.0"
+  }
+}
