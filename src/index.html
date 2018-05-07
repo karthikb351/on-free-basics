@@ -73,6 +73,7 @@
             <li><p class="navbar-text" style="color:white;">List of services available on Free Basics in India</p></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
+            <li><a href="diff.html">Diff report</a></li>
             <li><a href="api/freebasics.json" target="_blank">API</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -87,7 +88,7 @@
       <p class="lead">Taken from the Free Basics <a href="https://mobile.freebasics.com">website</a></p>
       <table id="mainTable" class="table table-striped table-hover">
         <h1 id="loading">Fetching data</h1>
-      </table> 
+      </table>
 
     </div>
 
@@ -131,7 +132,7 @@
         results.push(t);
       }
       return results;
-      
+
     };
 
     var getColumns = function () {
